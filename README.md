@@ -35,6 +35,10 @@ composer install
 composer test
 ```
 
+## Security
+
+Raw feeds are untrusted input. Strip HTML, keep money as integers, and do not commit advertiser credentials or live catalog dumps.
+
 ## License
 
 MIT — EMPIREX Tech / SC EMPIRE GLOBAL SOLUTIONS SRL
