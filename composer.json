@@ -1,0 +1,11 @@
+{
+    "name": "empirex/feed-pipeline",
+    "description": "PHP 8.3 feed pipeline: normalize merchant rows, dedupe by GTIN/brand/title, map taxonomy.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{"name": "EMPIREX Tech", "homepage": "https://empirex.tech"}],
+    "require": {"php": "^8.3"},
+    "require-dev": {"phpunit/phpunit": "^11.5"},
+    "autoload": {"psr-4": {"EmpireX\\FeedPipeline\\": "src/"}},
+    "scripts": {"test": "phpunit --colors=always"}
+}
